@@ -1,0 +1,11 @@
+{
+  "login": {
+    "login_screen": "Login Screen",
+    "login": "Login",
+    "email": "E-mail",
+    "password": "Password",
+    "email_required": "E-mail is required.",
+    "email_not_valid": "E-mail is not valid.",
+    "password_required": "E-mail is not valid."
+  }
+}
