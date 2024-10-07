@@ -3792,6 +3792,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.59.0":
+  version: 5.59.0
+  resolution: "@tanstack/query-core@npm:5.59.0"
+  checksum: 10c0/c6b5c935670ea0b4ba1e3936d9f319cae5ba098d82863115546d43d45e9e171b9fce990aecd56cd7ef9a8b1de64cb4f74f6c8f83cc1e61cd62ee99d2c34fbefc
+  languageName: node
+  linkType: hard
+
 "@tanstack/query-persist-client-core@npm:5.29.0":
   version: 5.29.0
   resolution: "@tanstack/query-persist-client-core@npm:5.29.0"
@@ -3801,15 +3808,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-persist-client@npm:^5.29.2":
-  version: 5.29.2
-  resolution: "@tanstack/react-query-persist-client@npm:5.29.2"
+"@tanstack/query-persist-client-core@npm:5.59.0":
+  version: 5.59.0
+  resolution: "@tanstack/query-persist-client-core@npm:5.59.0"
   dependencies:
-    "@tanstack/query-persist-client-core": "npm:5.29.0"
+    "@tanstack/query-core": "npm:5.59.0"
+  checksum: 10c0/359d55ae26b34a004e5bddd37687e0b325655bbf101a8e4f6e16b641a3c6224034f073eb4be6799814b1208686e53c95442bbceae3479e532de25bae33f9416a
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query-persist-client@npm:^5.59.0":
+  version: 5.59.0
+  resolution: "@tanstack/react-query-persist-client@npm:5.59.0"
+  dependencies:
+    "@tanstack/query-persist-client-core": "npm:5.59.0"
   peerDependencies:
-    "@tanstack/react-query": ^5.29.2
-    react: ^18.0.0
-  checksum: 10c0/a0305052d05339f2ae63d4b8a0f65b9aa5129c4c65e26ab613e96ad92e9c2a3eeefec32da6583552863f705cd559d1116dd810dfaeb6b3a319ff7cfea2bd6dec
+    "@tanstack/react-query": ^5.59.0
+    react: ^18 || ^19
+  checksum: 10c0/77c589fd3365e73a076d6c776483a4e7f4ea9bd0ca6cd1c462fa98a560d17ac2afd8bf87538b087b04ebc6a6aa1ddb3da769fea0c03e28f342a21cf356d704fc
   languageName: node
   linkType: hard
 
@@ -11941,7 +11957,7 @@ __metadata:
     "@tanstack/eslint-plugin-query": "npm:^5.28.11"
     "@tanstack/query-async-storage-persister": "npm:^5.29.1"
     "@tanstack/react-query": "npm:^5.29.2"
-    "@tanstack/react-query-persist-client": "npm:^5.29.2"
+    "@tanstack/react-query-persist-client": "npm:^5.59.0"
     "@types/react": "npm:~18.2.45"
     "@types/uuid": "npm:^9.0.1"
     "@typescript-eslint/eslint-plugin": "npm:^7.7.0"
